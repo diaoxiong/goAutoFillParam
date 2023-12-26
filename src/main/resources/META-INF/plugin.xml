@@ -14,9 +14,10 @@
          Simple HTML elements (text formatting, paragraphs, and lists) can be added inside of <![CDATA[ ]]> tag.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description -->
     <description><![CDATA[
-    translate from https://github.com/kontext-e/AutoFillingCallArguments
-    In source code, create a method or constructor call and place the cursor into the empty braces.
-    Open the intentions drop down menu and select the "Auto fill call parameters"
+    <p>Translate from <a href="https://github.com/kontext-e/AutoFillingCallArguments">https://github.com/kontext-e/AutoFillingCallArguments</a></p>
+
+    <p>In source code, create a method or constructor call and place the cursor into the empty braces.
+    Open the intentions drop down menu and select the "Auto fill call parameters"</p>
   ]]></description>
 
     <!-- Product and plugin compatibility requirements.
