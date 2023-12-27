@@ -18,6 +18,7 @@ intellij {
     type.set("GO") // Target IDE Platform
 
     plugins.set(listOf("org.jetbrains.plugins.go"))
+    updateSinceUntilBuild.set(false)
 }
 
 tasks {
@@ -28,11 +29,6 @@ tasks {
     }
     withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile> {
         kotlinOptions.jvmTarget = "11"
-    }
-
-    patchPluginXml {
-        sinceBuild.set("222")
-        untilBuild.set("232.*")
     }
 
     signPlugin {

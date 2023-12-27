@@ -20,6 +20,8 @@
     Open the intentions drop down menu and select the "Auto fill call parameters"</p>
   ]]></description>
 
+    <idea-version since-build="222"/>
+
     <!-- Product and plugin compatibility requirements.
          Read more: https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->
     <depends>com.intellij.modules.platform</depends>
